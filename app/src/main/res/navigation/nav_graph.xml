@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.stoneforze.pagepilot.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="com.stoneforze.pagepilot.ui.library.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@+id/navigation_study"
+        android:name="com.stoneforze.pagepilot.ui.study.StudyFragment"
+        android:label="Study"
+        tools:layout="@layout/fragment_study" />
+
+    <fragment
+        android:id="@+id/navigation_flashcards"
+        android:name="com.stoneforze.pagepilot.ui.flashcards.FlashcardsFragment"
+        android:label="Flashcards"
+        tools:layout="@layout/fragment_flashcards" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.stoneforze.pagepilot.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
